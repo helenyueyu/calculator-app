@@ -1,0 +1,66 @@
+.clear {
+  background-color: #505050;
+  width: 15vw;
+  height: 15vh;
+  border: 0.05rem solid black;
+  font-size: 3rem;
+  outline: none;
+  color: white;
+  transition: 1s;
+}
+.key {
+  background-color: grey;
+  width: 15vw;
+  height: 15vh;
+  border: 0.05rem solid black;
+  font-size: 3rem;
+  outline: none;
+  transition: 1s;
+}
+.att {
+  background-color: rgba(88,66,124,0.2);
+  width: 15vw;
+  height: 15vh;
+  border: 0.05rem solid black;
+  font-size: 3rem;
+  outline: none;
+  transition: 1s;
+  color: white;
+}
+.num {
+  background-color: #303030;
+  color: #eee;
+  width: 15vw;
+  height: 15vh;
+  border: 0.05rem solid black;
+  font-size: 3rem;
+  outline: none;
+  transition: 1s;
+}
+.num:hover {
+  background-color: #58427c;
+}
+.att:hover {
+  background-color: #303030;
+}
+.clear:hover {
+  background-color: #eee; 
+}
+.key:hover {
+  background-color: white;
+}
+.button {
+  padding-bottom: 5vh;
+}
+
+@keyframes flicker {
+  from {
+    background-color: rgba(0,0,0,1);
+  } to {
+    background-color: rgba(255,255,255,1);
+  }
+}
+
+.pulse:active {
+  animation: flicker 1s 1 ease-out;
+}

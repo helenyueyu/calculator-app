@@ -1,0 +1,22 @@
+.result {
+  height: 15vh;
+  width: 57.5vw;
+  margin-left: 2.5vw;
+  background-color: black;
+  color: white;
+  font-size: 4rem;
+  text-align: right;
+  padding-right: 2.5vw;
+}
+
+.input {
+  height: 15vh;
+  width: 57.5vw;
+  background-color: black;
+  color: white;
+  font-size: 4rem;
+  text-align: right;
+  padding-right: 2vw;
+  outline: none;
+  border: none; 
+}
